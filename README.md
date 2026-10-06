@@ -11,7 +11,6 @@ class Wiriya(nn.Module):
         super().__init__()
         self.name = "Wiriya Polchumni"
         self.role = "AI/ML Engineer"
-        self.focus = ["LLM Agents", "RAG", "Thai NLP"]
         self.stack = {
             "deep_learning": ["PyTorch", "TensorFlow", "scikit-learn", "Transformers"],
             "fine_tuning": ["LoRA / QLoRA"],
