@@ -12,7 +12,12 @@ class Wiriya(nn.Module):
         self.name = "Wiriya Polchumni"
         self.role = "AI Engineer"
         self.focus = ["LLM Agents", "RAG", "Thai NLP"]
-        self.stack = ["PyTorch", "Transformers", "LangGraph", "LangChain"]
+        self.stack = {
+            "deep_learning": ["PyTorch", "TensorFlow", "scikit-learn", "Transformers"],
+            "llm_serving": ["vLLM", "SGLang"],
+            "agents": ["LangChain", "LangGraph"],
+            "vector_db": ["Qdrant"],
+        }
         self.languages_spoken = ["th_TH", "en_US"]
 
     def forward(self, coffee: torch.Tensor) -> str:
