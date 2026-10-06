@@ -72,7 +72,7 @@ def main():
         (f'{data["best_day"]["count"]}', f'best day, {best.strftime("%b")} {best.day}'),
     ]
     stat_text = '<tspan class="sep" dx="10">·</tspan>'.join(
-        f'<tspan class="v"{" dx=\"10\"" if i else ""}>{v}</tspan><tspan dx="6">{label}</tspan>'
+        f'<tspan class="v" dx="{10 if i else 0}">{v}</tspan><tspan dx="6">{label}</tspan>'
         for i, (v, label) in enumerate(stats)
     )
 
