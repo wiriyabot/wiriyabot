@@ -1,0 +1,5 @@
+# Only for regenerating the ASCII portrait locally
+-r requirements.txt
+numpy
+pillow
+opencv-python
