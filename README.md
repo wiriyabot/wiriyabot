@@ -14,10 +14,12 @@ class Wiriya(nn.Module):
         self.focus = ["LLM Agents", "RAG", "Thai NLP"]
         self.stack = {
             "deep_learning": ["PyTorch", "TensorFlow", "scikit-learn", "Transformers"],
+            "fine_tuning": ["LoRA / QLoRA"],
             "llm_serving": ["vLLM", "SGLang", "llama.cpp", "TensorRT-LLM"],
             "agents": ["LangChain", "LangGraph", "LlamaIndex"],
             "vector_db": ["Qdrant", "Pinecone", "pgvector", "FAISS"],
             "llm_ops": ["LangSmith", "Langfuse", "MLflow"],
+            "deployment": ["FastAPI", "Docker"],
         }
         self.languages_spoken = ["th_TH", "en_US"]
 
