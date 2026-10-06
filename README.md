@@ -10,7 +10,7 @@ class Wiriya(nn.Module):
     def __init__(self):
         super().__init__()
         self.name = "Wiriya Polchumni"
-        self.role = "AI Engineer"
+        self.role = "AI/ML Engineer"
         self.focus = ["LLM Agents", "RAG", "Thai NLP"]
         self.stack = {
             "deep_learning": ["PyTorch", "TensorFlow", "scikit-learn", "Transformers"],
