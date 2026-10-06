@@ -1,5 +1,0 @@
-# Only for regenerating data/portrait.txt locally (prep_photo.py, make_ascii.py)
--r requirements.txt
-numpy
-pillow
-opencv-python

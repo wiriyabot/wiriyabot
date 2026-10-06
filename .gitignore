@@ -1,4 +1,0 @@
-# Source photo and intermediate images stay local
-.local/
-.venv/
-__pycache__/
