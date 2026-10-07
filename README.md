@@ -11,15 +11,13 @@ class Wiriya(nn.Module):
         super().__init__()
         self.name = "Wiriya Polchumni"
         self.role = "AI/ML Engineer"
-        self.stack = {
-            "deep_learning": ["PyTorch", "TensorFlow", "scikit-learn", "Transformers"],
-            "fine_tuning": ["LoRA / QLoRA"],
-            "llm_serving": ["vLLM", "SGLang", "llama.cpp"],
-            "agents": ["LangChain", "LangGraph", "LlamaIndex"],
-            "vector_db": ["Qdrant", "Pinecone", "FAISS"],
-            "llm_ops": ["LangSmith", "Langfuse", "MLflow"],
-            "deployment": ["FastAPI", "Docker"],
-        }
+        self.core = [
+            "PyTorch", "Transformers",   # models
+            "vLLM", "SGLang",            # serving
+            "LangChain", "LangGraph",    # agents
+            "Qdrant", "Pinecone",        # vector DB
+            "Langfuse",                  # observability
+        ]
         self.languages_spoken = ["th_TH", "en_US"]
 
     def forward(self, coffee: torch.Tensor) -> str:
