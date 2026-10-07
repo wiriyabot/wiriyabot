@@ -14,9 +14,9 @@ class Wiriya(nn.Module):
         self.stack = {
             "deep_learning": ["PyTorch", "TensorFlow", "scikit-learn", "Transformers"],
             "fine_tuning": ["LoRA / QLoRA"],
-            "llm_serving": ["vLLM", "SGLang", "llama.cpp", "TensorRT-LLM"],
+            "llm_serving": ["vLLM", "SGLang", "llama.cpp"],
             "agents": ["LangChain", "LangGraph", "LlamaIndex"],
-            "vector_db": ["Qdrant", "Pinecone", "pgvector", "FAISS"],
+            "vector_db": ["Qdrant", "Pinecone", "FAISS"],
             "llm_ops": ["LangSmith", "Langfuse", "MLflow"],
             "deployment": ["FastAPI", "Docker"],
         }
