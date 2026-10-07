@@ -34,10 +34,3 @@ class Wiriya(nn.Module):
 me = Wiriya()
 print(me(torch.ones(1)))  # ☕ in, ideas out
 ```
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/sleepy-dark.png">
-    <img src="assets/sleepy.png" width="110" alt="Blob sleeping">
-  </picture>
-</p>
