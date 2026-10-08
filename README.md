@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/wave-dark.png">
-    <img src="assets/wave.png" width="140" alt="A little black blob waving hello">
+    <img src="assets/wave.png" width="300" alt="A little black blob waving hello">
   </picture>
 </p>
 
